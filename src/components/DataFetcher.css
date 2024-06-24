@@ -1,0 +1,18 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background: rgb(255,0,228);
+background: linear-gradient(90deg, rgba(255,0,228,1) 0%, rgba(255,47,222,1) 35%, rgba(87,0,93,1) 100%);
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  li:hover {
+    background-color: #e0e0e0;
+  }
+  

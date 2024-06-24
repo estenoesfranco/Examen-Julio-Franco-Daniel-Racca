@@ -1,0 +1,60 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: rgb(255,0,228);
+  background: linear-gradient(90deg, rgba(255,0,228,1) 0%, rgba(255,47,222,1) 35%, rgba(87,0,93,1) 100%);
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  text-align: center;
+  padding: 10px;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 10px;
+  color: white;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  border: solid;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(0, 255, 242);
+background: linear-gradient(90deg, rgb(0, 247, 255) 0%, rgb(47, 161, 255) 35%, rgb(0, 33, 93) 100%);
+  padding: 10px 20px;
+  color: rgb(46, 39, 145);
+  border: solid
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+}
+
+.navbar-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-links li {
+  margin-left: 20px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+}
